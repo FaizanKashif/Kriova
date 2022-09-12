@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/signup.css">
+        <script>
+            document.addEventListener("DOMContentLoaded", function count() {
+               alert("registered Successfully")
+            })
+        </script>
+    </head>
+    <body>
+        <div class="regform">
+            <h1> Registration Form </h1>
+        </div>
+        <div class="mane">
+            <form>
+                <div id="name">
+                    <h2 class="name">Name</h2>
+                    <input class="firstname" type="text" name="first_name" placeholder="firstname"><br>
+                    <label class="firstlable">first name</label>
+                    <input class="lastname" type="text" name="last_name" placeholder="lastname"><br>
+                    <label class="lastlable">last name</label>
+                </div>
+                <h2 class="name">Email</h2>
+                <input class="email" type="text" name="email" placeholder="email">
+                <h2 class="name">Password</h2>
+                <input class="password" type="password" placeholder="password" id="password"> 
+                <h2 class="name"> Confirm Password</h2>
+                <input class="confirm_password" type="password" placeholder="confirm password" id="confirm_password"> 
+
+                <button type="submit" onclick="count">Register</button>
+                <a href="signin.html"><h5 class="name">Allready have an account</h5></a>
+                
+            </form>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </body>
+</html>
